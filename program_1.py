@@ -9,9 +9,12 @@ def kilometer_conversion(kilometers):
     miles = 0.0
     ######################
     # WRITE YOUR CODE HERE
+kilometers=int(input('Please enter the kilometer distance you would like converted to miles.'))
+def conversion():
+    miles=(kilometers*0.6214)
+    print('That distance in miles is ',miles,'.')
+conversion()
     ######################    
-
-
     # Return the variable to the calling function
     return miles
 
